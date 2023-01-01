@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <!-- bootstrap file link -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet"/>
+        
+        <title>Team Member</title>
+
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                font-family: 'Poppins', sans-serif;
+            }
+
+            ul{
+                padding: 0;
+                list-style: none;
+            }
+            ul li{
+                display: inline;
+            }
+
+            .body{
+                padding: 80px;
+                padding-top: 10rem;
+            }
+
+            .TeamMember{
+                box-shadow: 0px 0px 19px rgba(99, 99, 99, 0.18);
+                border-radius: 12px;
+                padding: 12px;
+                position: relative;
+            }
+
+            .TeamMember .MembersImage{
+                border-radius: 12px;
+                z-index: 10;
+                width: 180px;
+                height: 190px;
+                margin: auto;
+                margin-top: -5.5rem;
+                margin-bottom: 20px;
+            }
+
+            .TeamMember .MembersImage img{
+                height: 100%;
+                width: 100%;
+                border-radius: 12px;
+            }
+
+            .TeamMember .MemberDetails .TopBg{
+                top: 0;
+                position: absolute;
+                height: 20px;
+                width: 100%;
+                left: 0;
+                z-index: -5;
+                border-radius: 12px 12px 0 0;
+                background-color: rgb(8, 29, 104);
+            }
+
+            .TeamMember .MemberDetails h2{
+                font-weight: 600;
+                font-size: 32px;
+                margin-bottom: 10px;
+            }
+
+            .TeamMember .MemberDetails p{
+                margin-bottom: 10px;
+                font-weight: 400;
+                font-size: 22px;
+                text-transform: capitalize;
+            }
+
+            .TeamMember .MemberDetails ul li{
+                color: white;
+                padding: 5px 8px;
+                border-radius: 50%;
+                background-color: rgb(8, 29, 104);
+            }
+
+            .TeamMember .MemberDetails ul li:not(:last-child){
+                margin-right: .2rem;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="body text-center">
+            <div class="TeamMember col-4 m-auto">
+                <div class="MemberDetails">
+                    <div class="TopBg">
+
+                    </div>
+
+                    <div class="MembersImage">
+                        <img src="./man 1.png" alt="">
+                    </div>
+
+                    <div>
+                        <h2>MD Suny</h2>
+                        <p>Managing Director</p>
+
+                        <ul>
+                            <li>
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-twitter"></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-instagram"></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
